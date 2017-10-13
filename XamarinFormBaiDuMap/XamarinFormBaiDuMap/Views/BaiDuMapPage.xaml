@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+<pages:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormBaiDuMap.Views;assembly=XamarinFormBaiDuMap"
+		     xmlns:maps="clr-namespace:XamarinFormBaiDuMap.Forms;assembly=XamarinFormBaiDuMap"
+             xmlns:pages="clr-namespace:XamarinFormBaiDuMap.Forms;assembly=XamarinFormBaiDuMap"
+             Title="百度地图"
+             x:Class="XamarinFormBaiDuMap.Views.BaiDuMapPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <maps:MyBaiDuMaps x:Name="map"/>
+            <Button x:Name="btnTrack" Text="Switch" Clicked="btnTrack_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</pages:BaseContentPage>
