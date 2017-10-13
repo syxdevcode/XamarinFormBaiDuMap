@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.XamarinFormBaiDuMap" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="15" />
+	<uses-sdk android:minSdkVersion="16" />
   <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <!-- 访问网络，网络定位需要上网-->

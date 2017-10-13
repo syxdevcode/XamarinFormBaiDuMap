@@ -23,12 +23,12 @@ namespace XamarinFormBaiDuMap
                 Master = new NavigationPage(new UserPage())
                 {
                     Title = "用户信息"
-                    //,Icon = Device.OnPlatform("tab_about.png", null, null)
+                    ,Icon = Device.OnPlatform("tab_about.png", null, null)
                 },
                 Detail = new NavigationPage(new MainPage())
                 {
                     Title = "列表"
-                    //,Icon =Device.OnPlatform("tab_feed.png", null, null)
+                    ,Icon =Device.OnPlatform("tab_feed.png", null, null)
                 }
             };
         }
